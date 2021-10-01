@@ -55,4 +55,7 @@ def main():
     dict["Dog"].append(Dog("Dog " + i))
   for i in range(3):
     dict["Cat"].append(Cat("Cat " + i))
+print(dict["Dog"][0].str())
+print(dict["Cat"][1].str())
+main()
 
